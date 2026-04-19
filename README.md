@@ -42,6 +42,3 @@ python train_iris.py --data data/raw/your_table.csv --target class_name
 
 Artifacts are written to `artifacts/` (ignored by git).
 
-## License
-
-Add a `LICENSE` file when you publish the repository if you want an explicit license.
