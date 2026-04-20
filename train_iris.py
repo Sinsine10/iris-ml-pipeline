@@ -1,12 +1,3 @@
-"""
-Train a classifier on tabular data from disk (CSV) and save the model bundle.
-Default data: data/raw/iris.csv
-
-Run from repo root:
-  python train_iris.py
-  python train_iris.py --data path/to/custom.csv --target species
-"""
-
 import argparse
 from pathlib import Path
 
