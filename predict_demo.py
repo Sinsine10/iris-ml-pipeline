@@ -1,8 +1,3 @@
-"""
-Load the saved model bundle and run one prediction (demo).
-Run after train_iris.py: python predict_demo.py
-"""
-
 from pathlib import Path
 
 import joblib
@@ -19,7 +14,6 @@ def main() -> None:
     target_names = bundle["target_names"]
     feature_names = list(bundle["feature_names"])
 
-    # Example row: typical setosa-like measurements (matches training column names)
     sample = np.array([[5.1, 3.5, 1.4, 0.2]])
     pred = model.predict(sample)[0]
     proba = model.predict_proba(sample)[0]
